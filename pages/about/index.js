@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import {
   FaHtml5,
   FaCss3,
@@ -8,6 +10,9 @@ import {
 } from 'react-icons/fa';
 
 import { SiNextdotjs, SiFramer, SiAdobexd, SiAdobephotoshop } from 'react-icons/si';
+
+import Avatar from '../../components/Avatar';
+import Circles from '../../components/Circles';
 
 //  data
 const aboutData = [
@@ -86,7 +91,10 @@ const aboutData = [
 ];
 
 const About = () => {
-  return <div>About</div>;
+  const [index, setIndex] = useState(0);
+  return <div>
+    <circles />
+  </div>;
 };
 
 export default About;
