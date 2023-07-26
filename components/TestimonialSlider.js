@@ -31,7 +31,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 //2.07:30
-import { Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 
 import { FaQuoteLeft } from 'react-icons/fa'
 
@@ -85,9 +85,8 @@ const TestimonialSlider = () => {
                   <div className='xl:text-lg text-center md:text-left'>{person.message}</div>
                 </div>
               </SwiperSlide>
-            )
-          })
-        }
+            );
+          })}
       </Swiper>
   )
 };
