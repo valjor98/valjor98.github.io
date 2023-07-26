@@ -1,6 +1,6 @@
 import { Particles } from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
-import React, { useCallback } from 'reat'
+import React, { useCallback } from 'react'
 
 const ParticlesContainer = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -61,14 +61,15 @@ const ParticlesContainer = () => {
           default: 'bounce'
         },
         random: false,
-        speed: 1, straight: false
+        speed: 1, 
+        straight: false
       },
       number: {
         density:{
           enable: true, 
-          area: 800
+          area: 800,
         },
-        value: 80
+        value: 80,
       },
       opacity: {
         value: 0.5,
@@ -81,7 +82,7 @@ const ParticlesContainer = () => {
       },
     },
     detectRetina: true,
-    
+
   }}
 
   />
