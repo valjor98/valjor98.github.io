@@ -78,8 +78,10 @@ const ParticlesContainer = () => {
       },
       size: {
         value: { min: 1, max: 5},
-      }
-    }
+      },
+    },
+    detectRetina: true,
+    
   }}
 
   />
