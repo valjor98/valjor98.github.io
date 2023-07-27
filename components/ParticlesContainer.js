@@ -9,7 +9,11 @@ const ParticlesContainer = () => {
 
   const particlesLoaded = useCallback(async () => {}, []);
 
-  return <Particles id='tsparticles' init={particlesInit} loaded={particlesLoaded}
+  return <Particles 
+  className='w-full h-full absolute translate-z-0'
+  id='tsparticles' 
+  init={particlesInit} 
+  loaded={particlesLoaded}
   options={{
     fullScreen: {enable: false},
     background: {
