@@ -12,7 +12,7 @@ const ProjectsBtn = () => {
         className='relative w-[185px] -[185px] flex justify-center  items-center
         bg-circleStar bg-cover bg-center bg-no-repeat group'
       >
-      <image 
+      <Image 
         srs={'/rounded-text.png'}
         width={141}
         height={148}
