@@ -31,8 +31,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              lorem lorem lorem lorem lorem loremlorem lorem lorem lorem lorem lorem
-              lorem lorem lorem loremlorem lorem lorem loremlorem loremlorem lorem
+              Throughout my journey, I've had the opportunity to work on various projects that showcase my skills and creativity.
             </motion.p>
           </div>
 
