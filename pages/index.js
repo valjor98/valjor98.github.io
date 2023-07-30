@@ -32,9 +32,7 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-              Lorem ipsum dolor sit amet consecteur adipisicing elit. Itaque 
-              Lorem ipsum dolor sit amet consecteur adipisicing elit. Itaque 
-              Lorem ipsum dolor sit amet consecteur adipisicing elit. Itaque 
+              Hello! I'm Jorge, a passionate and dedicated Software Engineer with a keen interest in developing innovative solutions. Welcome to my web portfolio, where you can explore my projects, skills, and experiences in the world of technology. 
           </motion.p> 
           <div className='flex justify-center xl:hidden'>
             <ProjectsBtn />

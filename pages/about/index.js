@@ -24,7 +24,7 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Programming Languages',
         icons: [
           <FaHtml5 key="html5" />,
           <FaCss3 key="css3" />,
@@ -36,7 +36,7 @@ const aboutData = [
         ],
       },
       {
-        title: 'UI/UX Design',
+        title: 'Technologies',
         icons: [
           <FaFigma key="figma" />,
           <SiAdobexd key="adobexd" />,
@@ -49,12 +49,12 @@ const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: '1st Place Winner - Banorte Hackathon 2023',
+        stage: 'May 2023',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: '1st Place Winner - Hack Monterrey 2022',
+        stage: 'September 2022',
       },
     ],
   },
@@ -62,33 +62,25 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Software Engineer Intern - Valiot',
+        stage: 'Jan 2023 - July 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Software Engineer Intern - XLab: Protexa Research and Development Labs',
+        stage: 'Dec 2022 - June 2023',
       },
     ],
   },
   {
-    title: 'credentials',
+    title: 'Education',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Bs, Computer Science- Tecnoloogico de Monterrey',
+        stage: 'Aug 2020 - June 2024 (expected)',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Bs, Economics - Universidad Nacional Autonoma de Mexico - SUAyED',
+        stage: 'Jan 2021 - June 2025 (expected)',
       },
     ],
   },
@@ -130,11 +122,7 @@ const About = () => {
           exit='hidden'
           className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
         >
-          10 years ago, I began freelancing as a developer. Since then, I've done work.
-          10 years ago, I began freelancing as a developer. Since then, I've done work.
-          10 years ago, I began freelancing as a developer. Since then, I've done work.
-          10 years ago, I began freelancing as a developer. Since then, I've done work.
-          10 years ago, I began freelancing as a developer. Since then, I've done work.
+          I am a Software Engineer with a strong academic background in Computer Science and Economics. My journey in the tech world has been marked by exciting internships and winning hackathons, allowing me to gain hands-on experience and develop a diverse skill set.
         </motion.p>
 
         {/* counters */}
