@@ -31,7 +31,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Throughout my journey, I&apos;ve had the opportunity to work on various projects that showcase my skills and creativity.
+              Throughout my journey, {"I've"} had the opportunity to work on various projects that showcase my skills and creativity.
             </motion.p>
           </div>
 

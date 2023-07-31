@@ -122,7 +122,7 @@ const About = () => {
           exit='hidden'
           className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
         >
-          I am a Software Engineer with a strong academic background in Computer Science and Economics. My journey in the tech world has been marked by exciting internships and winning hackathons, allowing me to gain hands-on experience and develop a diverse skill set.
+          {"I'm"} a Software Engineer with a strong academic background in Computer Science and Economics. My journey in the tech world has been marked by exciting internships and winning hackathons, allowing me to gain hands-on experience and develop a diverse skill set.
         </motion.p>
 
         {/* counters */}
