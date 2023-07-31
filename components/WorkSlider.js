@@ -58,7 +58,6 @@ import { BsArrowRight } from 'react-icons/bs'
 import Image from 'next/image';
 
 
-
 const WorkSlider = () => {
   return (
     <Swiper 
@@ -74,9 +73,9 @@ const WorkSlider = () => {
             return (
               <SwiperSlide key={index}>
                 <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
-                  {slide.images.map((image, index) => {
+                  {slide.images.map((image, imageIndex ) => {
                     return <div className='relative rounded-lg overflow-hidden flex
-                    items-center justify-center group' key={index}
+                    items-center justify-center group' key={imageIndex}
                     >
                       <div className='flex items-center justify-center relative
                       overflow-hidden group'>
