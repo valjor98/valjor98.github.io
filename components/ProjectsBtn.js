@@ -13,7 +13,7 @@ const ProjectsBtn = () => {
         bg-circleStar bg-cover bg-center bg-no-repeat group'
       >
       <Image 
-        srs={'/rounded-text.png'}
+        srs={'./rounded-text.png'}
         width={141}
         height={148}
         alt=''
