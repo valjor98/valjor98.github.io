@@ -4,28 +4,18 @@ import { RxCrop, RxPencil2, RxDesktop, RxReader, RxRocket } from 'react-icons/rx
 export const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Software Engineer',
+    description: 'I specialize in developing innovative and efficient software solutions to address complex challenges. With a strong proficiency in Python, JavaScript, and other technologies, I bring ideas to life by crafting robust and scalable applications.',
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Researcher',
+    description: ' I delve into the realms of technology and engineering, exploring cutting-edge concepts and conducting in-depth studies. My current research focuses on Automatic Design of Intelligent Algorithms for Solving Practical Multi-Objective Engineering Problems',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Economist',
+    description: ' I bridge the gap between economics and technology, applying analytical thinking and data-driven approaches to solve economic challenges',
   },
 ];
 

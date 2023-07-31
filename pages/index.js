@@ -22,8 +22,10 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Transforming Ideas <br /> Into{' '}
-            <span className='text-accent'>Digital Reality</span>
+            Passionate 
+            <br /> Problem Solver{' '}
+            <br /> and{' '} Tech Enthusiast 
+            <span className='text-accent'> . </span>
           </motion.h1>
           <motion.p 
             variants={fadeIn('down', 0.3)}
