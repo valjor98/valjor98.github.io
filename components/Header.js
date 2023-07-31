@@ -14,7 +14,7 @@ const Header = () => {
         py-8'>
           <Link href={'/'}>
             <Image 
-              src={'/logo.svg'}
+              src={'/logo_v1.png'}
               width={220}
               height={48}
               alt=''
