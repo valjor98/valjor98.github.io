@@ -41,7 +41,7 @@ const Services = () => {
             My services <span className='text-accent'>.</span> 
           </h2>
           <p className='mb-4 max-w-[400px] mx-auto lg-mx-0'>
-          As a Software Engineer, I offer innovative and reliable solutions tailored to your needs. My expertise lies in web development, AI, and data analysis. Whether it's creating dynamic web applications or implementing intelligent algorithms, I'm here to bring ideas to life.
+          As a Software Engineer, I offer innovative and reliable solutions tailored to your needs. My expertise lies in web development, AI, and data analysis. Whether it&apos;s creating dynamic web applications or implementing intelligent algorithms, I&apos;m here to bring ideas to life.
           </p>
         </div>
         <div className='w-full xl:max-w-[65%]'>
